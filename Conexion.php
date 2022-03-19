@@ -2,7 +2,7 @@
 define('USER', 'root');
 define('PASSWORD', '');
 define('HOST', '');
-define('DATABASE', 'login');
+define('DATABASE', 'bd_login');
 try {
     $conn = new PDO('mysql:host=' . HOST . ';dbname=' . DATABASE, USER, PASSWORD);
 } catch (PDOException $e) {
